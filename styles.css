@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     height: 100vh;
-    background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondopag.jpeg'); /* Cambia esto por la URL de tu imagen de fondo */
+    background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondopag.jpeg'); /* URL correcta de la imagen */
     background-size: cover;
     background-position: center;
     color: white;
@@ -65,4 +65,3 @@ p {
 .whatsapp-btn:active {
     background-color: #075e54; /* Color aún más oscuro al hacer clic */
 }
-
