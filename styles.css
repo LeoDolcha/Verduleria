@@ -10,12 +10,13 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Cambiado de center a flex-start para que se alinee arriba */
     background-image: url('https://example.com/verduras.jpg'); /* Cambia esto por la URL de tu imagen de fondo */
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
+    padding-top: 50px; /* Esto asegura que haya un espacio de 50px desde la parte superior */
 }
 
 /* Estilos del contenedor */
