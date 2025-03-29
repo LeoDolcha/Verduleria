@@ -68,11 +68,17 @@ p {
     background-color: #075e54; /* Color aún más oscuro al hacer clic */
 }
 
-/* Estilo para la imagen debajo de los botones */
-img {
-    width: 100%;
-    max-width: 700px;
+/* Contenedor para la imagen */
+.image-container {
     margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centra la imagen */
+}
+
+.image-container img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
