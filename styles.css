@@ -66,12 +66,15 @@ p {
     background-color: #075e54; /* Color aún más oscuro al hacer clic */
 }
 
-/* Imagen abajo */
+/* Imagen de abajo */
 .image-bottom {
     width: 100%;
+    max-width: 700px; /* La imagen tendrá el mismo ancho que el contenedor */
     height: auto;
     margin-top: 30px;
     border-radius: 10px;
+    margin-left: auto; /* Centra la imagen */
+    margin-right: auto; /* Centra la imagen */
 }
 
 /* Media query para dispositivos móviles */
@@ -97,7 +100,7 @@ p {
     }
 
     .image-bottom {
-        max-width: 100%; /* Asegurar que la imagen ocupe todo el ancho disponible */
+        max-width: 100%; /* Asegurar que la imagen ocupe el mismo ancho que el contenedor */
         height: auto; /* Mantener la proporción de la imagen */
     }
 }
