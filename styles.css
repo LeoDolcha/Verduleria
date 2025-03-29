@@ -68,10 +68,11 @@ p {
 
 /* Imagen de abajo */
 .image-bottom {
-    width: 100%; /* Asegura que la imagen tenga el mismo ancho que el contenedor de texto */
+    width: 100%; /* Ajusta el tamaño de la imagen al 100% del contenedor */
+    max-width: 700px; /* Evita que la imagen se estire más allá de su contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block;
-    margin: 30px auto 0; /* Centra la imagen y le da un espacio superior */
+    margin: 30px auto 0; /* Centra la imagen y le da un margen superior */
     border-radius: 10px;
 }
 
@@ -102,3 +103,4 @@ p {
         height: auto; /* Mantiene la proporción de la imagen */
     }
 }
+
