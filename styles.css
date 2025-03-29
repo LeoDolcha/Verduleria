@@ -69,7 +69,7 @@ p {
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
     body {
-        background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondopag-mobile.jpeg'); /* Imagen diferente para móviles */
+        background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondomobil.jpg'); /* Imagen diferente para móviles */
     }
 }
 
