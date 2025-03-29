@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     height: 100vh;
-    background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondopag.jpeg'); /* Imagen de fondo */
+    background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondopag.jpeg'); /* Imagen para PC */
     background-size: cover;
     background-position: center;
     color: white;
@@ -56,8 +56,6 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
     margin-top: 30px; /* Aumento del margen superior para separar más el botón */
-    margin-right: 10px; /* Espacio entre los botones */
-    margin-bottom: 10px; /* Espacio debajo de los botones */
 }
 
 .whatsapp-btn:hover {
@@ -68,17 +66,11 @@ p {
     background-color: #075e54; /* Color aún más oscuro al hacer clic */
 }
 
-/* Contenedor para la imagen */
-.image-container {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center; /* Centra la imagen */
-}
-
-.image-container img {
-    max-width: 100%;
+/* Imagen abajo */
+.image-bottom {
     width: 100%;
     height: auto;
+    margin-top: 30px;
     border-radius: 10px;
 }
 
@@ -86,5 +78,26 @@ p {
 @media (max-width: 768px) {
     body {
         background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/fondomovil.jpg'); /* Imagen diferente para móviles */
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2.5em; /* Reducir el tamaño de la fuente en dispositivos pequeños */
+    }
+
+    p {
+        font-size: 1.2em; /* Reducir el tamaño del texto */
+    }
+
+    .whatsapp-btn {
+        font-size: 1em; /* Reducir el tamaño del botón en móviles */
+    }
+
+    .image-bottom {
+        max-width: 100%; /* Asegurar que la imagen ocupe todo el ancho disponible */
+        height: auto; /* Mantener la proporción de la imagen */
     }
 }
