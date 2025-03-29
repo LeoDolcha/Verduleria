@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     height: 100vh;
-    background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondopag.jpeg'); /* Imagen para PC */
+    background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondopag.jpeg'); /* Imagen de fondo */
     background-size: cover;
     background-position: center;
     color: white;
@@ -27,7 +27,6 @@ body {
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro transparente para mejorar la visibilidad del texto */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Sombra para dar profundidad */
-    text-align: center; /* Asegura que el contenido esté centrado */
 }
 
 /* Títulos */
@@ -57,6 +56,8 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
     margin-top: 30px; /* Aumento del margen superior para separar más el botón */
+    margin-right: 10px; /* Espacio entre los botones */
+    margin-bottom: 10px; /* Espacio debajo de los botones */
 }
 
 .whatsapp-btn:hover {
@@ -67,15 +68,12 @@ p {
     background-color: #075e54; /* Color aún más oscuro al hacer clic */
 }
 
-/* Estilos para la imagen debajo del botón */
-.image-below-btn {
-    margin-top: 30px; /* Espacio superior */
-    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
-    max-width: 100%; /* Asegura que no se salga del contenedor */
-    height: auto; /* Mantiene la relación de aspecto */
-    display: block; /* Para que la imagen ocupe su propia línea */
-    margin-left: auto; /* Centrar la imagen horizontalmente */
-    margin-right: auto; /* Centrar la imagen horizontalmente */
+/* Estilo para la imagen debajo de los botones */
+img {
+    width: 100%;
+    max-width: 700px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 /* Media query para dispositivos móviles */
@@ -84,4 +82,3 @@ p {
         background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/fondomovil.jpg'); /* Imagen diferente para móviles */
     }
 }
-
