@@ -20,36 +20,14 @@ body {
 
 /* Estilos del contenedor */
 .container {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo más oscuro para resaltar el contenido */
+    padding: 30px;
+    border-radius: 10px;
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Agrega una sombra para más profundidad */
 }
 
+/* Títulos */
 h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-/* Estilos del botón de WhatsApp */
-.whatsapp-btn {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #25d366;
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease;
-}
-
-.whatsapp-btn:hover {
-    background-color: #128c7e;
-}
+    font-size: 3em;
