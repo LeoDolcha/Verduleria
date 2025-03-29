@@ -27,6 +27,7 @@ body {
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro transparente para mejorar la visibilidad del texto */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Sombra para dar profundidad */
+    text-align: center; /* Asegura que el contenido esté centrado */
 }
 
 /* Títulos */
@@ -83,3 +84,4 @@ p {
         background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/fondomovil.jpg'); /* Imagen diferente para móviles */
     }
 }
+
