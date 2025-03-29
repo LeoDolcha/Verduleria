@@ -66,6 +66,17 @@ p {
     background-color: #075e54; /* Color aún más oscuro al hacer clic */
 }
 
+/* Estilos para la imagen debajo del botón */
+.image-below-btn {
+    margin-top: 30px; /* Espacio superior */
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    max-width: 100%; /* Asegura que no se salga del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    display: block; /* Para que la imagen ocupe su propia línea */
+    margin-left: auto; /* Centrar la imagen horizontalmente */
+    margin-right: auto; /* Centrar la imagen horizontalmente */
+}
+
 /* Media query para dispositivos móviles */
 @media (max-width: 768px) {
     body {
