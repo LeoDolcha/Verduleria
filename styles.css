@@ -100,7 +100,9 @@ p {
     }
 
     .image-bottom {
-        max-width: 100%; /* Asegurar que la imagen ocupe el mismo ancho que el contenedor */
+        width: 100%; /* La imagen se ajusta al 100% del ancho */
+        max-width: 700px; /* El mismo tamaño máximo que el contenedor */
         height: auto; /* Mantener la proporción de la imagen */
     }
 }
+
