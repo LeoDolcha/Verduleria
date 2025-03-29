@@ -15,6 +15,7 @@ body {
     text-align: center;
     padding-top: 50px; /* Espacio desde la parte superior */
     margin: 0;
+    position: relative; /* Necesario para la posición del fondo */
 }
 
 /* Estilos del contenedor */
@@ -24,6 +25,8 @@ body {
     width: 100%;
     max-width: 700px;
     margin: 0 auto; /* Centra el contenedor horizontalmente */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro transparente para mejorar la visibilidad del texto */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Sombra para dar profundidad */
 }
 
 /* Títulos */
@@ -62,3 +65,4 @@ p {
 .whatsapp-btn:active {
     background-color: #075e54; /* Color aún más oscuro al hacer clic */
 }
+
