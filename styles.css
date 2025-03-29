@@ -68,9 +68,8 @@ p {
 
 /* Imagen de abajo */
 .image-bottom {
-    width: 100%;
-    max-width: 700px; /* Mismo ancho que el contenedor */
-    height: auto; /* Mantiene la proporción original de la imagen */
+    width: 100%; /* Asegura que la imagen tenga el mismo ancho que el contenedor de texto */
+    height: auto; /* Mantiene la proporción de la imagen */
     display: block;
     margin: 30px auto 0; /* Centra la imagen y le da un espacio superior */
     border-radius: 10px;
@@ -99,7 +98,7 @@ p {
     }
 
     .image-bottom {
-        max-width: 100%; /* Asegura que la imagen ocupe el 100% del ancho de la pantalla en móviles */
+        width: 100%; /* Asegura que la imagen ocupe el 100% del ancho de la pantalla en móviles */
         height: auto; /* Mantiene la proporción de la imagen */
     }
 }
