@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     height: 100vh;
-    background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondopag.jpeg'); /* URL correcta de la imagen */
+    background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondopag.jpeg'); /* Imagen para PC */
     background-size: cover;
     background-position: center;
     color: white;
@@ -65,3 +65,11 @@ p {
 .whatsapp-btn:active {
     background-color: #075e54; /* Color aún más oscuro al hacer clic */
 }
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    body {
+        background-image: url('https://raw.githubusercontent.com/LeoDolcha/Verduleria/main/Fondopag-mobile.jpeg'); /* Imagen diferente para móviles */
+    }
+}
+
