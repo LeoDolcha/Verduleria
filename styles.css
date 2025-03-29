@@ -31,3 +31,36 @@ body {
 /* Títulos */
 h1 {
     font-size: 3em;
+    color: #28a745; /* Color verde, para resaltar la frescura */
+    margin-bottom: 40px; /* Aumento del margen inferior para más espacio */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra sutil para el texto */
+}
+
+/* Párrafos */
+p {
+    font-size: 1.5em;
+    color: #f8f9fa; /* Color claro para el texto */
+    margin-bottom: 30px; /* Aumento del margen inferior para más espacio */
+}
+
+/* Estilos del botón de WhatsApp */
+.whatsapp-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #25d366; /* Color verde de WhatsApp */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    margin-top: 30px; /* Aumento del margen superior para separar más el botón */
+}
+
+.whatsapp-btn:hover {
+    background-color: #128c7e; /* Color más oscuro cuando el mouse pasa sobre el botón */
+}
+
+.whatsapp-btn:active {
+    background-color: #075e54; /* Color aún más oscuro al hacer clic */
+}
